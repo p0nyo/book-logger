@@ -2,7 +2,7 @@
 
 Welcome to the book store repository :) 
 
-This project is a simple book management application which serves as my personal introduction to building with the MERN technology stack (MongoDB, Express.js, React.js, Node.js).
+This project is a simple book management web application which serves as my personal introduction to building with the MERN technology stack (MongoDB, Express.js, React.js, Node.js).
 
 Features:
 - CRUD Operations: Create, Read, Update, and Delete book records.
