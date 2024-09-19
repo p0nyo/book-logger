@@ -73,7 +73,6 @@ const Home = () => {
                                     </div>
                                 </td>
                             </tr>
-
                         ))}
                     </tbody>
                 </table>
