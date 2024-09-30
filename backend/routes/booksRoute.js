@@ -1,6 +1,7 @@
 import express from 'express';
 import { Book } from '../models/bookModel.js';
 
+// Can find router expression in index.js
 const router = express.Router();
 
 // Route for saving a new book

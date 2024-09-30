@@ -19,6 +19,8 @@ app.get('/', (request, response) => {
     return response.status(234).send('Hello World')
 });
 
+
+// This makes the relative route '/books'
 app.use('/books', booksRoute);
 
 mongoose
