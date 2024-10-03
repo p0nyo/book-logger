@@ -3,6 +3,7 @@ import BackButton from '../components/BackButton';
 import Spinner from '../components/Spinner';
 import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
+import { enqueueSnackbar } from 'notistack';
 
 
 const DeleteBook = () => {
@@ -17,6 +18,7 @@ const DeleteBook = () => {
       .then(() => {
         setLoading(false);
         navigate('/')
+        enqueueSnackbar('Book deleted successfully!', { variant: 'success'})
       })
   }
 
